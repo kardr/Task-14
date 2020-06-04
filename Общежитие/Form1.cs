@@ -49,5 +49,12 @@ namespace Общежитие
             form5.Text = "Расселение";
             form5.ShowDialog();
         }
+
+        private void запросыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ZaprosForm form6 = new ZaprosForm();
+            form6.Text = "Запросы";
+            form6.ShowDialog();
+        }
     }
 }
