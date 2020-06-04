@@ -52,8 +52,44 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="lgotaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lgotaForm.Designer.cs">
+      <DependentUpon>lgotaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RasselenieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RasselenieForm.Designer.cs">
+      <DependentUpon>RasselenieForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="roomsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="roomsForm.Designer.cs">
+      <DependentUpon>roomsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentsForm.Designer.cs">
+      <DependentUpon>studentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ОбщежитиеDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ОбщежитиеDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lgotaForm.resx">
+      <DependentUpon>lgotaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +99,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RasselenieForm.resx">
+      <DependentUpon>RasselenieForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="roomsForm.resx">
+      <DependentUpon>roomsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentsForm.resx">
+      <DependentUpon>studentsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -72,6 +117,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ОбщежитиеDataSet.xsc">
+      <DependentUpon>ОбщежитиеDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ОбщежитиеDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ОбщежитиеDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ОбщежитиеDataSet.xss">
+      <DependentUpon>ОбщежитиеDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
