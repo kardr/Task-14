@@ -56,5 +56,12 @@ namespace Общежитие
             form6.Text = "Запросы";
             form6.ShowDialog();
         }
+
+        private void отчетыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Otchet form7 = new Otchet();
+            form7.Text = "Oтчеты";
+            form7.ShowDialog();
+        }
     }
 }

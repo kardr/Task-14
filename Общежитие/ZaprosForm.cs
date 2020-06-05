@@ -35,7 +35,7 @@ namespace Общежитие
              dataGridView1.DataSource = dt;
              sqlconn.Close();
 
-            /*OleDbConnection sqlconn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;" +
+           /* OleDbConnection sqlconn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;" +
                 "Data Source=C:\\Users\\KDroz\\OneDrive\\Рабочий стол\\Практика\\Неделя 5\\Задание 14\\Общежитие\\Общежитие.accdb");
             sqlconn.Open();
             OleDbDataAdapter ole = new OleDbDataAdapter();

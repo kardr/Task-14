@@ -41,6 +41,7 @@
             this.просмотрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.расселениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.запросыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.общежитиеDataSet)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -62,7 +63,8 @@
             this.toolStripMenuItem1,
             this.таблицыToolStripMenuItem,
             this.просмотрToolStripMenuItem,
-            this.запросыToolStripMenuItem});
+            this.запросыToolStripMenuItem,
+            this.отчетыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(428, 24);
@@ -139,6 +141,13 @@
             this.запросыToolStripMenuItem.Text = "Запросы";
             this.запросыToolStripMenuItem.Click += new System.EventHandler(this.запросыToolStripMenuItem_Click);
             // 
+            // отчетыToolStripMenuItem
+            // 
+            this.отчетыToolStripMenuItem.Name = "отчетыToolStripMenuItem";
+            this.отчетыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.отчетыToolStripMenuItem.Text = "Отчеты";
+            this.отчетыToolStripMenuItem.Click += new System.EventHandler(this.отчетыToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -171,6 +180,7 @@
         private System.Windows.Forms.ToolStripMenuItem просмотрToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem расселениеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem запросыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem отчетыToolStripMenuItem;
     }
 }
 
